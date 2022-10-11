@@ -1,0 +1,33 @@
+footer {
+    background: #52B6EC;
+    color: #FFFFFF;
+    height: 300px;
+}
+.content img {
+    width: 250px;
+    margin-left: 100px;
+    position: absolute;
+}
+:is(.infos) li {
+    margin: 25px 0;
+}
+.infos {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 500px;
+    padding-top: 60px;
+}
+.foot {
+    width: 30%;
+}
+.socials {
+    display: flex;
+    margin-left: 970px;
+    margin-top: -43px;
+}
+.socials i {
+    margin: 0 10px;
+    border-radius: 50%;
+    height: 35px;
+    display: flex;
+}

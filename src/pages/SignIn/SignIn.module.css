@@ -1,0 +1,140 @@
+.sings {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.item1 {
+    width: 51%;
+    background: #FF9900;
+}
+.sang img {
+    width: 100%;
+    margin-top: 60px;
+}
+.item2 {
+    width: 60%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.item2Head {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.item2Head img {
+    width: 250px;
+}
+.item2Form {
+    margin-top: -20px;
+    width: 542px;
+}
+.item2Text h5 {
+    font-weight: 600;
+    font-size: 30px;
+    width: 228px;
+}
+.item2Text p {
+    padding-bottom: 20px;
+}
+.btns {
+    display: flex;
+    width: 100%;
+    margin-left: 0px;
+    justify-content: space-between;
+}
+button {
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    width: 240px;
+    height: 38px;
+}
+.button2 {
+    background: #527BCB;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+.line {
+    display: flex;
+    width: 80%;
+    margin-top: 30px;
+}
+.line p {
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    color: #000000;
+    margin-right: 35px;
+    margin-left: 40px;
+}
+.line img {
+    width: 270px;
+}
+.text p {
+    font-weight: 400;
+    font-size: 15px;
+    color: #000000;
+    padding-top: 30px;
+}
+.search input::placeholder {
+    color: #000000;
+}
+.input1{
+    border: 1px solid red;
+    width: 542px;
+    height: 56px;
+    background: #FFFFFF;
+    border: 1px solid #FF9900;
+    border-radius: 10px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.input1 input{
+    padding-left: 40px;
+    border: none;
+    outline: none;
+}
+.input1 img .input2 img{
+    width: 30px;
+    height: 20px;
+}
+.input3 img {
+    width: 30px;
+    height: 20px;
+    margin-left: 230px;
+}
+.input2 {
+    border: 1px solid red;
+    width: 542px;
+    height: 56px;
+    background: #FFFFFF;
+    border: 1px solid #FF9900;
+    border-radius: 10px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.input2 input{
+    padding-left: 40px;
+    border: none;
+    outline: none;
+}
+.bttn {
+    width: 542px;
+    height: 56px;
+    background: #FF9900;
+    border: 1px solid #FF9900;
+    border-radius: 10px;
+    margin-top: 30px;
+    color: #000000;
+    font-weight: 600;
+    font-size: 14px;
+}
+.texxt p {
+    text-decoration: underline;
+}

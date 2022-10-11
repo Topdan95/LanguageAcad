@@ -1,0 +1,33 @@
+.sign-up h5 {
+    font-weight: 600;
+    font-size: 30px;
+    color: #000000;
+    padding: 30px;
+}
+.sign-up p {
+    font-weight: 500;
+    font-size: 15px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    color: #000000;
+}
+span {
+    color: #52B6EC;
+}
+.sign-up h6 {
+    font-weight: 600;
+    font-size: 24px;
+    color: #000000;
+    padding-left: 30px;
+}
+.search input::placeholder {
+    background: rgba(151, 151, 151, 0.5);
+    border: 1px solid #FF9900;
+    border-radius: 5px;
+    width: 500px;
+    height: 400px;
+    padding-left: 30px;
+}
+.search {
+    position: relative;
+}

@@ -1,0 +1,70 @@
+/* Card Section */
+.ambassador .packages p {
+    color: #7D7D7D;
+    margin-top: 120px;
+    font-weight: 500;
+    font-size: 22px;
+}
+.ambassador .packages h5 {
+    color: #373737;
+    font-weight: 700;
+    font-size: 37px;
+    margin-bottom: 30px;
+}
+.ambassador .packages p,
+.ambassador .packages h5 {
+    text-align: center;
+}
+.ambassador .carrds {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    overflow: auto;
+}
+.ambassador .carrd {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    padding: 30px;
+    margin: 10px 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.06);
+    border-radius: 15px;
+    align-items: left;
+}
+.ambassador .carrd .icon img {
+    padding: 10px;
+    height: 60px;
+    width: 60px;
+}
+.ambassador .carrd p {
+    letter-spacing: 0.444444px; 
+    font-size: 14px;
+    text-align: left;
+    padding-bottom: 15px;
+}
+.ambassador .carrd h3 {
+    font-weight: 700 ;
+    margin: 20px 0 ;
+    font-size: 16px;
+    text-align: left;
+}
+.carrd h6 {
+    font-weight: 700;
+    font-size: 15px;
+}
+.ambassador .carrd:hover {
+    color: #fff !important;
+    background: #301446;;
+    /* background: #52B6EC; */
+}
+.span p {
+    color: #52B6EC;
+    padding-top: 50px;
+}
+.icon1 img {
+    display: flex;
+    margin-top: -19px;
+    margin-left: 100px;
+}
