@@ -84,7 +84,6 @@ button {
     color: #000000;
 }
 .input1{
-    border: 1px solid red;
     width: 542px;
     height: 56px;
     background: #FFFFFF;
@@ -109,7 +108,6 @@ button {
     margin-left: 230px;
 }
 .input2 {
-    border: 1px solid red;
     width: 542px;
     height: 56px;
     background: #FFFFFF;
@@ -137,4 +135,64 @@ button {
 }
 .texxt p {
     text-decoration: underline;
+}
+@media screen and (max-width: 768px) {
+    .sings {
+        display: flex;
+        border: 1px solid red;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .item1 {
+        display: none;
+    }
+    .item2Head {
+        margin-left: 200px;
+        margin-top: -40px;
+    }
+    .item2Text h5 {
+        margin-left: 0px;
+        padding-top: 150px;
+    }
+    .item2Text p {
+        padding-top: 30px;
+    }
+    .line {
+        display: flex;
+        margin-left: 0px;
+        width: 100px;
+    }
+    .btns {
+        display: flex;
+        margin-left: 0px;
+        width: 380px;
+    }
+    .input1, .input2, .bttn {
+        width: 380px;
+        height: 50px;
+    }
+    .input1 img {
+        width: 5%;
+    }
+    .input2 img {
+        width: 10%;
+        margin-top: 10px;
+    }
+    .input3 img {
+        width: 19%;
+        margin-left: 100px;
+    }
+    .btns button {
+        margin-left: -15px;
+        margin-top: 20px;
+    }
+    .btns .button2 {
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .line img {
+        margin-left: -10px;
+        margin-top: 10px;
+        width: 150px;
+    }
 }

@@ -2,9 +2,19 @@ import React from "react";
 import "./Nav.css";
 import {Link} from "react-router-dom";
 import logo from '../../images/Lannford.svg'
+import hamburger from '../../images/hamburger.svg'
 
 const Nav = () => {
-  
+  const toggleNavbar = () => {
+    
+    document.querySelector(".mobile-navigations").classList.toggle("toggle-nav");
+
+    window.onscroll = () => {
+      document.querySelector(".mobile-navigations").classList.remove("toggle-nav");
+
+  };
+};
+
   return (
   <>
   <header>
@@ -37,6 +47,20 @@ const Nav = () => {
         </li>
       </ul>
     </nav>
+    <div className="mobile-navbar">
+      <div className="mobile-container">
+        <div className="hamburger">
+          <img src={hamburger} alt="hamburger" onClick={toggleNavbar}/>
+          <div className="mobile-navigations">
+            <div className="sign">
+              <div className="signin"><Link to="/signin">Sign In</Link></div>
+              <div className="login"><Link to="/login">Log In</Link></div>
+              <div className="sign-up"><Link to="/signup">Sign Up</Link></div>
+            </div>
+            </div>
+        </div>
+      </div>
+    </div>
   </header>
   </>
   )

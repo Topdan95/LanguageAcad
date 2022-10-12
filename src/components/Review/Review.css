@@ -56,3 +56,66 @@
     width: 28%;
     align-items: center;
 }
+@media screen and (max-width: 768px) {
+    .review {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        overflow: hidden;
+    }
+    .reviewed {
+        position: unset;
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .revs {
+        display: flex;
+        flex-direction: column;
+        position: unset;
+    }
+    .reviewers h4 {
+        margin-top: -100px;
+        font-size: 25px;
+    }
+    .reviewers p {
+        margin-top: -5px;
+        font-size: 12px;
+    }
+    .rev img {
+        display: flex;
+        flex-direction: column;
+        position: unset;
+        width: 35%;
+        margin-top: 5px;
+    }
+    .reviewer img {
+        margin-left: 280px;
+        padding-bottom: 5px;
+    }
+    .reviewee img {
+        margin-left: 20px;
+        padding-bottom: -30px;
+    }
+    .reviewees img {
+        margin-left: 280px;
+        padding-bottom: 105px;
+    }
+    .revieweers img {
+        margin-left: 20px;
+        padding-bottom: 5px;
+    }
+    .revieweerrs img {
+        margin-left: 150px;
+        padding-bottom: 5px;
+    }
+    .reviewers {
+        display: flex;
+        flex-direction: column;
+        position: unset;
+    }
+    .reviewers .but {
+        margin-left: 100px;
+        margin-top: 190px;
+    }
+}

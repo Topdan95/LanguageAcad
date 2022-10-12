@@ -9,8 +9,8 @@ const Footer = () => {
             <div className="content">
               <img src={log} alt="logo" />
             </div>
-            <div className="infos foot">
-            <div className="info information">
+            <div className="infos">
+            <div className="information">
               <ul>
                 <li>About Us</li>
                 <li>Responsibilities</li>
@@ -18,21 +18,22 @@ const Footer = () => {
                 <li>Contact</li>
               </ul>
             </div>
-            <div className="info informations">
+            <div className="information">
               <ul>
                 <li>Disclaimer</li>
                 <li>Testimonials</li>
                 <li>Privacy Policy</li>
-                <li>Terms of Service</li>
+                <li>Terms of Services </li>
               </ul>
             </div>
             </div>
-          <div className="socials">
+            <div className="socials">
             <i className="fa-brands fa-facebook-f"></i>
             <i className="fa-brands fa-twitter"></i>
             <i className="fa-brands fa-instagram"></i>
         </div>
         </div>
+         
     </footer>
   )
 }

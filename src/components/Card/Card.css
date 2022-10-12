@@ -56,8 +56,7 @@
 }
 .ambassador .carrd:hover {
     color: #fff !important;
-    background: #301446;;
-    /* background: #52B6EC; */
+    background: #301446;
 }
 .span p {
     color: #52B6EC;
@@ -67,4 +66,26 @@
     display: flex;
     margin-top: -19px;
     margin-left: 100px;
+}
+@media screen and (max-width: 768px) {
+    .packages {
+        display: flex;
+        flex-direction: column-reverse;
+        overflow: hidden;
+    }
+    .ambassador .packages p{
+        margin-top: -10px;
+        font-size: 16px;
+    }
+    .ambassador .packages h5 {
+        font-size: 30px;
+    }
+    .ambassador .carrds {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .icon1 img {
+        margin-left: 250px;
+    }
 }

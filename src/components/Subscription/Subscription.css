@@ -1,5 +1,6 @@
 .sub {
     padding: 20px;
+    overflow: hidden;
 }
 .plans {
     font-weight: 700;
@@ -22,18 +23,18 @@
     font-weight: 500;
     font-size: 16px;
     color: #544837;
-    margin-left: 700px;
+    margin-left: 600px;
     margin-top: 35px;
 }
 .planns h6 {
     font-weight: 700;
     font-size: 26px;
     color: #2F281E;
-    margin-left: 700px;
+    margin-left: 600px;
     margin-bottom: -30px;
 }
 .plannss {
-    margin-left: 700px;
+    margin-left: 600px;
     margin-top: 30px;
 }
 .plannss p {
@@ -63,7 +64,7 @@
     max-width: 65%;
     position: absolute;
     top: -50px;
-    left: 700px;
+    left: 600px;
 }
 .subbs {
     position: relative;
@@ -108,18 +109,18 @@
     font-weight: 500;
     font-size: 16px;
     color: #544837;
-    margin-left: 700px;
+    margin-left: 600px;
     margin-top: 50px;
 }
 .diamond h6 {
     font-weight: 700;
     font-size: 26px;
     color: #2F281E;
-    margin-left: 700px;
+    margin-left: 600px;
     margin-bottom: -30px;
 }
 .diamonds {
-    margin-left: 700px;
+    margin-left: 600px;
     margin-top: 30px;
 }
 .diamonds p {
@@ -136,7 +137,7 @@
     position: relative;
 }
 .premium img {
-    max-width: 54.85%;
+    max-width: 47.75%;
     position: absolute;
     top: -50px;
     left: 550px;
@@ -171,4 +172,98 @@
 }
 .premiums img {
     padding: 20px 0px 0px 0px;
+}
+@media screen and (max-width: 768px) {
+    .sub {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        overflow: hidden;
+    }
+    .plans h6 {
+        font-size: 26px;
+    }  
+    .planns {
+        position: unset;
+        width: 100%;
+        text-align: center;
+    }
+    .planns p {
+        margin-left: -150px;
+    }
+    .planns h6 {
+        margin-left: -20px;
+        margin-bottom: 10px;
+    }
+    .planns img {
+        position: unset;
+        max-width: 100%;
+        margin-top: -40px;
+        margin-left: 30px;
+    }
+    .plannss {
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+    .subs {
+        position: unset;
+        width: 100%;
+        text-align: center;
+    }
+    .subs p {
+        margin-left: -150px;
+    }
+    .subs h6 {
+        margin-left: 5px;
+        margin-bottom: 10px;
+    }
+    .subs img {
+        position: unset;
+        max-width: 100%;
+    }
+    .subbs {
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+    .diamond {
+        position: unset;
+        width: 100%;
+        text-align: center;
+    }
+    .diamond p {
+        margin-left: -150px;
+    }
+    .diamond h6 {
+        margin-left: -20px;
+        margin-bottom: 10px;
+    }
+    .diamond img {
+        position: unset;
+        max-width: 100%;
+    }
+    .diamonds {
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+    .premium {
+        position: unset;
+        width: 100%;
+        text-align: center;
+    }
+    .premium p {
+        margin-left: -150px;
+        margin-top: 30px;
+    }
+    .premium h6 {
+        margin-left: -35px;
+        margin-bottom: 10px;
+    }
+    .premium img {
+        position: unset;
+        max-width: 100%;
+    }
+    .premiums {
+        margin-left: 20px;
+        margin-top: 0px;
+    }
 }

@@ -1,3 +1,35 @@
+.signs {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.best {
+    width: 53%;
+    background: rgba(82, 182, 236, 0.6);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 648px;
+}
+.best h4 {
+    font-weight: 600;
+    font-size: 44px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.8);
+    margin-top: 50px;
+}
+.best img {
+    width: 70%;
+    height: 490px;
+    margin-top: -48px;
+    margin-left: 150px;
+}
+.best p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    text-align: center;
+    margin-top: -100px;
+    margin-left: 30px;
+}
 .sign-up h5 {
     font-weight: 600;
     font-size: 30px;
@@ -20,14 +52,96 @@ span {
     color: #000000;
     padding-left: 30px;
 }
-.search input::placeholder {
+.full {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.full input {
     background: rgba(151, 151, 151, 0.5);
     border: 1px solid #FF9900;
     border-radius: 5px;
-    width: 500px;
-    height: 400px;
+    width: 380px;
+    height: 40px;
     padding-left: 30px;
 }
-.search {
-    position: relative;
+.fulls {
+    margin-left: 30px;
+    margin-top: 20px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+.fulls input {
+    background: rgba(151, 151, 151, 0.5);
+    border: 1px solid #FF9900;
+    border-radius: 5px;
+    width: 177px;
+    height: 40px;
+}
+.fulll p {
+    margin-left: 200px;
+    margin-top: -60px;
+}
+.fulll input {
+    margin-left: 200px;
+}
+.fullss {
+    margin-left: 30px;
+    margin-top: 20px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+.fullss input {
+    background: rgba(151, 151, 151, 0.5);
+    border: 1px solid #FF9900;
+    border-radius: 5px;
+    width: 177px;
+    height: 40px;
+}
+.fullls p {
+    margin-left: 200px;
+    margin-top: 10px;
+}
+.fullls input {
+    margin-left: 200px;
+    margin-top: 10px;
+}
+.now{
+    display: flex;
+    width: 380px;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 20px;
+
+
+}
+.now div{
+    display: flex;
+    flex-direction: column;
+    
+}
+.now input {
+    background: rgba(151, 151, 151, 0.5);
+    border: 1px solid #FF9900;
+    border-radius: 5px;
+    /* width: 177px; */
+    height: 40px;
+}
+@media screen and (max-width: 768px) {
+    .signs {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .best {
+        display: none;
+    }
+    .now input {
+        background: rgba(151, 151, 151, 0.5);
+        border: 1px solid #FF9900;
+        border-radius: 5px;
+        /* width: 177px; */
+        /* height: 40px; */
+    }
 }

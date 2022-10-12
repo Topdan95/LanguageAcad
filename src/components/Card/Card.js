@@ -21,7 +21,7 @@ const Card = () => {
         </div>
         <div className="carrds">
             {data.map((datum) => (<PackagesCard iconImage={datum.iconImage} name={datum.name} quality={datum.quality} grade={datum.grade} icon1Image={datum.icon1Image}/>))}
-      </div>
+        </div>
     </section>
     </>
   )
