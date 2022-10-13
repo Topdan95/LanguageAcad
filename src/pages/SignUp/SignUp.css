@@ -43,13 +43,13 @@
     width: 40%;
   }
 
-  .forms .socials {
+  .forms .socialss {
     display: flex;
     justify-content: space-evenly;
   }
 
-  .forms .socials img {
-    margin: 20px 80px;
+  .forms .socialss img {
+    /* margin: 20px 80px; */
   }
 p input {
     margin-right: 10px;

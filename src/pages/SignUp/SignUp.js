@@ -53,7 +53,12 @@ const SignUp = () => {
             </div>
             <div>
               <label htmlFor="country">Country</label>
-              <input type="text" />
+              <select>
+                <option value="nigeria">Nigeria</option>
+                <option value="togo">Togo</option>
+                <option value="ghana">Ghana</option>
+                <option value="mali">Mali</option>
+              </select>
             </div>
           </div>
 
@@ -69,7 +74,7 @@ const SignUp = () => {
             <div className="or">or</div>
             <div className="line"></div>
           </div>
-          <div className="socials">
+          <div className="socialss">
             <img cclassName="social1" src={google} alt="google" />
             <img className="social2" src={facebook} alt="facebook" />
           </div>

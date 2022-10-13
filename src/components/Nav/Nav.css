@@ -16,7 +16,7 @@ nav {
     justify-content: flex-start;
     align-items: center;
     color: #373737;
-    overflow: hidden;
+    overflow: none;
 }
 .nav ul {
     display: flex;
