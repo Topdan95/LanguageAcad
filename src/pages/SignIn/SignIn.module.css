@@ -152,8 +152,13 @@ button {
   .item1 {
     display: none;
   }
+
+  .item2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
   .item2Head {
-    margin-left: 200px;
+    /* margin-left: 200px; */
     margin-top: -40px;
   }
   .item2Text h5 {
