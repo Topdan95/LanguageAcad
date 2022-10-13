@@ -4,7 +4,7 @@
   justify-content: space-between;
 }
 .item1 {
-  width:40%;
+  width: 40%;
   background: #ff9900;
 }
 .sang img {
@@ -145,21 +145,37 @@ button {
 @media screen and (max-width: 768px) {
   .sings {
     display: flex;
-    border: 1px solid red;
     flex-direction: column;
+    /* border: 1px solid red; */
+
     /* overflow: hidden; */
+    width: 100%;
   }
   .item1 {
     display: none;
+    width: 100%;
   }
 
   .item2 {
-    display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+  }
+  .item2Form{
+    width: 100%;
+    overflow: hidden;
+
   }
   .item2Head {
-    /* margin-left: 200px; */
-    margin-top: -40px;
+    margin-top: -80px;
+    width: 100%;
+  }
+  .item2Head img {
+    /* display: none; */
+    max-width: 200px;
   }
   .item2Text h5 {
     margin-left: 0px;
@@ -170,24 +186,39 @@ button {
   }
   .text {
     order: 1;
+    
   }
   .line {
+    display: none;
     display: flex;
     margin-left: 0px;
-    width: 100px;
+    width: 100%;
     order: 2;
   }
+  
   .btns {
     display: flex;
     margin-left: 0px;
-    width: 380px;
+    width: 80%;
+    margin: auto;
     order: 3;
+  }
+  .btns button{
+    max-width: 100%;
+  }
+  .btns button:nth-child(1){
+    margin-left: 15px;
   }
   .input1,
   .input2,
   .bttn {
-    width: 380px;
+    width: 100%;
     height: 50px;
+  }
+  .btns{
+    width: 100%;
+    flex-direction: column;
+
   }
   .input1 img {
     width: 5%;
@@ -209,8 +240,8 @@ button {
     margin-top: 20px;
   }
   .line img {
-    margin-left: -10px;
-    margin-top: 10px;
-    width: 150px;
+    width:100%;
+    display: none;
   }
+  
 }
