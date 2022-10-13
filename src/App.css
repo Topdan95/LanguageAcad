@@ -12,3 +12,15 @@ a{
 body {
   font-family: 'Poppins', sans-serif;
 }
+
+a, button {
+  cursor: pointer;
+}
+
+.btn_pry {
+  background: #ff9900;
+}
+
+.text_pry {
+  color: #ff9900;
+}

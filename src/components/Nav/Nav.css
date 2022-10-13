@@ -61,7 +61,7 @@ nav {
     margin-bottom: 40px;
 }
 .mobile-navbar .mobile-navigations {
-    left: 140px;
+    left: 0;
     top: 80px;
     position: absolute;
     color: #FFFFFF;
@@ -73,7 +73,7 @@ nav {
     transform: translateX(-100%);
     opacity: 0;
     transition: all 0.5s ease-in-out;
-    height: 30vh;
+    height: 200px;
 }
 .toggle-nav {
     transform: translateX(0) !important;
