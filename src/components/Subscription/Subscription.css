@@ -133,16 +133,29 @@
 .diamonds img {
     padding: 20px 0px 0px 0px;
 }
+.flexi {
+    display: flex;
+}
 .premium {
+    /* order: 2;
+    width: 50%; */
+    /* flex: 1; */
     position: relative;
 }
+
 .premium img {
-    max-width: 47.75%;
+    max-width: 59%;
     position: absolute;
     top: -50px;
     left: 550px;
+    object-fit: cover;
+    /* object-position: center;
+    object-fit: cover; */
 }
 .premiums {
+    /* order: 1;
+    width: 50%; */
+    /* flex: 1; */
     position: relative;
 }
 .premium p {
